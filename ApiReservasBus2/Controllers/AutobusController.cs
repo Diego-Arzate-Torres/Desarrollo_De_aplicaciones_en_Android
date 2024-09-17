@@ -9,7 +9,6 @@ namespace ApiReservasBus2.Controllers
     public class AutobusController : Controller
     {
         private AppDbContext2 _appDbContext2;
-
         public AutobusController(AppDbContext2 appDbContext2)
         {
             _appDbContext2 = appDbContext2;

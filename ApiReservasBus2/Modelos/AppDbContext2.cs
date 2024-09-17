@@ -10,5 +10,6 @@ namespace ApiReservasBus2.Modelos
         public DbSet<Usuario> Usuario { get; set; }
 
         public DbSet<Autobus> Autobus { get; set; }
+        public DbSet<Viaje> Viaje { get; set; }
     }
 }
